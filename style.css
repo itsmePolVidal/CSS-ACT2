@@ -152,3 +152,7 @@ a:hover{
     padding-bottom: 90px;
     text-align: center;
 }
+
+ul{
+    display: flex;
+}
