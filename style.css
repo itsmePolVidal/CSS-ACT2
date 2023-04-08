@@ -2,9 +2,11 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+  
 }
 #mywebsite{
 font-family: Arial, Helvetica, sans-serif;
+
 
 }
 
@@ -13,6 +15,7 @@ font-family: Arial, Helvetica, sans-serif;
     background-size: cover;
     height: 100vh;
     color: white;
+    margin-left: 0px;
 }
 
 #landing h1{
@@ -34,16 +37,18 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 #blog{
-
-    padding-bottom: 100px;
     padding-left: 55px;
+    padding-bottom: 100px;
+    margin-left: 150px;
+    
 }
 
 #blog h2{
-
-    text-align: left;
+    margin-right: 160px;
+    text-align: center;
     margin-top: 100px;
     margin-bottom: 40px;
+    
 }
 
 
@@ -148,7 +153,55 @@ a:hover{
 #services{
 
     background-color: whitesmoke;
+    background-position: center;
     padding-top: 100px;
     padding-bottom: 90px;
     text-align: center;
+    padding-left: 100px;
+}
+
+
+
+ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+li{
+    margin: 20px;
+    display: block;
+    padding-left: auto;
+    padding-right: auto;
+    width: 200px;
+    background-color: white;
+    padding-bottom: 100px;
+
+}
+
+li:nth-child(1){
+    background-color: red;
+    width: 200px;
+    padding: 20px;
+}
+li:nth-child(2){
+
+    width: 200px;
+    padding: 20px;
+}
+li:nth-child(3){
+
+    width: 200px;
+    padding: 20px;
+}
+li:nth-child(4){
+
+    width: 200px;
+    padding: 20px;
+}
+li:nth-child(5){
+
+    width: 200px;
+    padding: 20px;
 }
