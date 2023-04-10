@@ -2,213 +2,149 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-  
 }
-#mywebsite{
-font-family: Arial, Helvetica, sans-serif;
 
+#mywebsite{
+
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
 #landing{
-    background-image: url(img/landing-img.jpg);
+
+    background-image: url(../img/landing-img.jpg);
     background-size: cover;
-    height: 100vh;
+    height: 90vh;
     color: white;
-    margin-left: 0px;
 }
 
 #landing h1{
+    font-size: 45px;
     position: relative;
-    font-size: 62px;
-
 }
 
 #landing p{
 
-    font-size: 23px;
+    font-size: 20px;
     position: relative;
 }
 
-#landing h1, p{
-
-    text-align: center;
-    top: 200px;
+#landing h1,p{
+     text-align: center;
+     top: 250px;
 }
 
 #blog{
-    padding-left: 55px;
+    padding-left: 100px;
     padding-bottom: 100px;
-    margin-left: 150px;
-    
 }
 
 #blog h2{
-    margin-right: 160px;
     text-align: center;
     margin-top: 100px;
     margin-bottom: 40px;
-    
-}
 
+}
 
 img{
-
     align-items: center;
-    height: 150px;
-    width: 278px;
+    height: 160px;
+    width: 280px;
     padding-bottom: 1%;
 }
-
-div:nth-child(5){
-
+div{
     display: inline-block;
-    height: 300px;
+    height: 320px;
     width: 280px;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+    margin-right: 5px;
+}
+div:nth-child(5){
     border: 1px solid whitesmoke;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 div:nth-child(4){
-
-    display: inline-block;
-    border: 1px solid black;
-    height: 300px;
-    width: 280px;
-    align-items: center;
-    border-radius: 10px;
     background-color: black;
     color: white;
-    justify-content: center;
-    margin-right: 5px;
-    
+    border: 1px solid whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 :nth-child(4) a{
-    color: lightgrey;
+    color: lightgray;
 }
 
 :nth-child(4) a:hover{
-    color: blue;
+    color: red;
 }
 div:nth-child(3){
-
-    display: inline-block;
-    height: 300px;
-    width: 280px;
-    align-items: center;
-    border-radius: 10px;
-    justify-content: center;
-    margin-right: 5px;
-    border: 1px solid whitesmoke;
-
-}
-div:nth-child(2){
-
-    display: inline-block;
-    height: 300px;
-    width: 280px;
-    align-items: center;
-    border-radius: 10px;
-    justify-content: center;
-    margin-right: 5px;
     border: 1px solid whitesmoke;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    
+}
+div:nth-child(2){
+    border: 1px solid whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #blog h2{
-
     text-align: center;
 }
 
 #blog h3{
-
     padding-top: 10px;
     padding-bottom: 15px;
     padding-left: 20px;
 }
 #blog p{
-
     text-align: justify;
     font-size: 12px;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
 }
+
 a{
     padding-left: 20px;
-    font-size: 11px;
+    font-size: 12px;
     text-decoration: none;
     color: grey;
 }
 
 a:hover{
-    color: blue;
+    color: red;
 }
 
 #services{
-
     background-color: whitesmoke;
-    background-position: center;
     padding-top: 100px;
     padding-bottom: 90px;
     text-align: center;
-    padding-left: 100px;
 }
-
-
 
 ul{
     display: flex;
     list-style-type: none;
     margin-left: 50px;
     margin-right: 50px;
-
 }
 li{
     margin: 20px;
     display: block;
     padding-left: auto;
     padding-right: auto;
-    width: 200px;
+    width:200px;
     background-color: white;
-    padding-bottom: 100px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 
 }
-
 li:nth-child(1){
-    background-color: red;
-    width: 200px;
-    padding: 20px;
+    background-color: orangered;
+
 }
-li:nth-child(2){
-
-    width: 200px;
-    padding: 20px;
-}
-li:nth-child(3){
-
-    width: 200px;
-    padding: 20px;
-}
-li:nth-child(4){
-
-    width: 200px;
-    padding: 20px;
-}
-li:nth-child(5){
-
-    width: 200px;
-    padding: 20px;
-}
-
-@media only screen and (max-width:600px){
-    li:nth-child(5){
-
-        width: 200px;
-        padding: 0px;
+li:hover{
+    box-shadow: 0px 0px 15px 1px rgb(193, 193, 193);
 }
